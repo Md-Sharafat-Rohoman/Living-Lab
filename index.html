@@ -19,41 +19,82 @@
 </head>
 
 <body>
-    <h3 class="">heading</h3>
+    <header class="bg-gray-200 py-10">
+        <!-- navbar -->
+        <!-- nav section start  -->
+        <nav class="lg:flex lg:justify-between mt-8 px-10">
+            <div class="flex justify-between">
+                <img class="h-16" src="images/logo-header.png" alt="">
+                <i class="fa-solid fa-bars text-3xl text-green-700 lg:hidden"></i>
 
-    <header>
+            </div>
 
+            <ul class="lg:flex lg:gap-8  hidden">
+                <li class=""><a href=" " class="">Product</a></li>
+                <li class=""><a href="" class="">Services</a></li>
+                <li class=""><a href="" class="">Contact us</a></li>
+                <li class=""><a href="" class="">Admission</a></li>
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="ml-20">
+
+                    <button class="border-solid border-2 border-green-700 rounded-lg px-6 py-1 ">Login</button>
+                </div>
+                <div>
+                    <button class="bg-green-700 px-5 py-2 rounded-lg text-white">Register</button>
+                </div>
+                <!-- <div class="">
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 8.4375C3.75 7.91973 4.16973 7.5 4.6875 7.5H25.3125C25.8303 7.5 26.25 7.91973 26.25 8.4375C26.25 8.95527 25.8303 9.375 25.3125 9.375H4.6875C4.16973 9.375 3.75 8.95527 3.75 8.4375ZM3.75 15C3.75 14.4822 4.16973 14.0625 4.6875 14.0625H25.3125C25.8303 14.0625 26.25 14.4822 26.25 15C26.25 15.5178 25.8303 15.9375 25.3125 15.9375H4.6875C4.16973 15.9375 3.75 15.5178 3.75 15ZM3.75 21.5625C3.75 21.0447 4.16973 20.625 4.6875 20.625H25.3125C25.8303 20.625 26.25 21.0447 26.25 21.5625C26.25 22.0803 25.8303 22.5 25.3125 22.5H4.6875C4.16973 22.5 3.75 22.0803 3.75 21.5625Z" fill="#179800"/>
+                      </svg>
+                </div> -->
+            </ul>
+        </nav>
+        <!-- Extra section added -->
+        <section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Welcome to Our Platform</h2>
+            <p class="text-gray-600 mb-6">We provide the best solutions to enhance your digital experience. Join us and
+                explore endless possibilities.</p>
+            <a href="#"
+                class="px-6 py-3 bg-blue-600 text-white rounded-lg text-lg font-semibold hover:bg-blue-700 transition">Get
+                Started</a>
+        </section>
     </header>
     <main>
-        <!-- <section class="freshness-container">
+
+        <section class="freshness-container">
             <h1 class="font-bold text-center text-black text-3xl">Freshness <span class="text-[#179800]">You Can <br>
-                Count</span> On, Prices You’ll Love!</h1>
-                <p class="lg:w-1/2 text-[#111] text-center mx-auto py-3 sm:p-2">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-                <img class="lg:w-1/2 lg:h-1/2 mx-auto" src="images/hero-vegetables.png" alt="">
-        </section> -->
+                    Count</span> On, Prices You’ll Love!</h1>
+            <p class="lg:w-1/2 text-[#111] text-center mx-auto py-3 sm:p-2">Shop your daily essentials at unbeatable
+                prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img class="lg:w-1/2 lg:h-1/2 mx-auto" src="images/hero-vegetables.png" alt="">
+        </section>
 
-        <!-- <section class="bg-white px-10">
-        <h3 class="font-bold text-[#179800]">Services</h3>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-5" >
-            <div class="bg-[#EFEBE3] text-center p-5 rounded-lg">
-                <img class="mx-auto bg-white rounded-full p-5" src="images/service.png" alt="">
-                <h2 class="text-[#111] font-bold py-3">24/7 Services </h2>
-                <p class="text-[#111] font-light opacity-[0.7]">Delivery is a fundamental component of commerce and trade, and involves transport and distribution.</p>
+        <section class="bg-white px-10">
+            <h3 class="font-bold text-[#179800]">Services</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-5">
+                <div class="bg-[#EFEBE3] text-center p-5 rounded-lg">
+                    <img class="mx-auto bg-white rounded-full p-5" src="images/service.png" alt="">
+                    <h2 class="text-[#111] font-bold py-3">24/7 Services </h2>
+                    <p class="text-[#111] font-light opacity-[0.7]">Delivery is a fundamental component of commerce and
+                        trade, and involves transport and distribution.</p>
+                </div>
+                <div class="bg-[#EFEBE3] text-center p-5 rounded-lg">
+                    <img class="mx-auto bg-white rounded-full p-5" src="images/delivery.png" alt="">
+                    <h2 class="text-[#111] font-bold py-3">Fast Delivery</h2>
+                    <p class="text-[#111] font-light opacity-[0.7]">Delivery is a fundamental component of commerce and
+                        trade, and involves transport and distribution.</p>
+                </div>
+                <div class="bg-[#EFEBE3] text-center p-5 rounded-lg">
+                    <img class="mx-auto bg-white rounded-full p-5" src="images/healthy.png" alt="">
+                    <h2 class="text-[#111] font-bold py-3">Healthy Products</h2>
+                    <p class="text-[#111] font-light opacity-[0.7]">Delivery is a fundamental component of commerce and
+                        trade, and involves transport and distribution.</p>
+                </div>
             </div>
-            <div class="bg-[#EFEBE3] text-center p-5 rounded-lg">
-                <img class="mx-auto bg-white rounded-full p-5" src="images/delivery.png" alt="">
-                <h2 class="text-[#111] font-bold py-3">Fast Delivery</h2>
-                <p class="text-[#111] font-light opacity-[0.7]">Delivery is a fundamental component of commerce and trade, and involves transport and distribution.</p>
-            </div>
-            <div class="bg-[#EFEBE3] text-center p-5 rounded-lg">
-                <img class="mx-auto bg-white rounded-full p-5" src="images/healthy.png" alt="">
-                <h2 class="text-[#111] font-bold py-3">Healthy Products</h2>
-                <p class="text-[#111] font-light opacity-[0.7]">Delivery is a fundamental component of commerce and trade, and involves transport and distribution.</p>
-            </div>
-        </div>
-    </section> -->
+        </section>
 
-        <!-- <section>
+        <section>
             <div class="bg-[#EFEBE3] p-20">
                 <h1 class="text-[#179800] font-bold text-3xl">Popular Products</h1>
                 <div class="lg:flex gap-5">
@@ -169,39 +210,43 @@
                 </div>
 
             </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="bg-white p-20">
+        <section class="bg-white p-20">
             <div>
                 <h1 class="text-[#179800] text-4xl font-bold">Arrival & Offers</h1>
                 <div class="lg:flex gap-10">
-                    <div  class="bg-[#115414] flex justify-between px-20 pt-20 mt-10 rounded-lg ">
+                    <div class="bg-[#115414] flex justify-between px-20 pt-20 mt-10 rounded-lg ">
                         <div>
                             <img src="images/dawat-logo.png" alt="">
-                            <button class="bg-[#63B76D] rounded-lg px-10 py-2 text-white text-2xl my-4">Cook Exotic Dishes</button>
+                            <button class="bg-[#63B76D] rounded-lg px-10 py-2 text-white text-2xl my-4">Cook Exotic
+                                Dishes</button>
                             <p class="text-white text-3xl">UP to <span class="font-extrabold">20% OFF</span></p>
                         </div>
                         <img src="images/dawat-mock-up.png" alt="">
                     </div>
-                    <div  class="bg-[#102861] flex justify-between pt-20 px-2 mt-10 rounded-lg ">
+                    <div class="bg-[#102861] flex justify-between pt-20 px-2 mt-10 rounded-lg ">
                         <div>
                             <img src="images/india-gate-logo.png" alt="">
-                            <button class="bg-[#2A4D97] rounded-lg px-10 py-2 text-white text-2xl my-4">World’s No.1 Rice</button>
+                            <button class="bg-[#2A4D97] rounded-lg px-10 py-2 text-white text-2xl my-4">World’s No.1
+                                Rice</button>
                             <p class="text-white text-3xl">UP to <span class="font-extrabold">40% OFF</span></p>
                         </div>
                         <img src="images/india-gate-mock-up.png" alt="">
                     </div>
                 </div>
             </div>
-        </section> -->
-    
+        </section>
+
         <section class="bg-white p-10 relative">
             <div class="lg:flex lg:justify-center lg:items-center bg-[#EFEBE3] mx-10 rounded-lg p-5 -mb-40">
                 <img class="sm:mx-auto" src="images/vegetable-busket.png" alt="">
                 <div class="text-center lg:text-start">
                     <h2 class="text-[#111] text-3xl font-bold">Get Grocery News!</h2>
-                    <p class="text-[#111] text-sm py-5 font-medium">Exclusive training tips, ticks, product deals and more.</p>
-                    <input class="px-5 p-2 w-full rounded-lg bg-white" type="email" name="" id="" placeholder="Enter email"> <br>
+                    <p class="text-[#111] text-sm py-5 font-medium">Exclusive training tips, ticks, product deals and
+                        more.</p>
+                    <input class="px-5 p-2 w-full rounded-lg bg-white" type="email" name="" id=""
+                        placeholder="Enter email"> <br>
                     <button class="bg-[#179800] text-white rounded-lg px-6 py-2 my-5">Subscribe</button>
                 </div>
             </div>
