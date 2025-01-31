@@ -1,0 +1,8 @@
+body {
+    font-family: "Sora";
+    
+}
+.freshness-container{
+    /* background: linear-gradient(); */
+    background: linear-gradient(180deg, #FFF 0%, #eedebf 100%);
+}
